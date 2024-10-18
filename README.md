@@ -19,6 +19,9 @@ Este proyecto es una Pokédex web que permite mostrar información de Pokémon, 
   - **Eliminar Pokémon**: En `guardados.html`, se puede eliminar un Pokémon guardado al presionar el botón "Eliminar".
   - **Modo Oscuro**: Se implementó la funcionalidad de modo oscuro en ambas páginas.
 
+- **Puerto Usado**:
+  - `5000`: localhost:5000
+
 ## Backend
 
 - **Framework**: Laravel
@@ -36,6 +39,8 @@ Este proyecto es una Pokédex web que permite mostrar información de Pokémon, 
   - **Listar Pokémon guardados**: Devuelve una lista de todos los Pokémon guardados en la base de datos en formato JSON.
   - **Eliminar Pokémon**: Permite eliminar un Pokémon de la base de datos por su ID.
 
+- **Puerto Usado**:
+  - `8000`: localhost:8000.
 ---
 
 Este proyecto combina un frontend estático con una API REST en Laravel para crear una Pokédex completamente funcional.
