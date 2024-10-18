@@ -1,0 +1,83 @@
+#contador-tiempo {
+  background-color: #78c850;
+  color: white;
+  padding: 13px 18px;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.tipo-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 0.8em;
+  color: white;
+  border-radius: 0.5em;
+  margin-right: 0.3em;
+}
+
+#fetch-pokemon {
+  border-radius: 25px;
+  background-color: #78C850;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* carta */
+.pokemon {
+    width: 100%;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    transition: 0.95s;
+}
+
+
+.pokemon-carta:hover .pokemon {
+    margin-top: -1px;
+    opacity: 1;
+    top: 0;
+}
+
+/* Modo obscuro */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #02020d;
+  color: #e0e0e0;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+}
+
+.dark-mode #toggle-theme {
+  background-color: #444;
+  color: #e0e0e0;
+}
+
+.dark-mode #fetch-pokemon {
+  background-color: #556b2f;
+  color: white;
+}
+
+.dark-mode #contador-tiempo {
+  background-color: #444;
+  color: #e0e0e0;
+}
+
+.dark-mode #fetch-pokemon {
+    background-color: #444;
+    color: #e0e0e0;
+  }
