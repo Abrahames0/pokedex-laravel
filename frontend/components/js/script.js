@@ -245,10 +245,10 @@ function toggleTheme() {
   
   if (body.classList.contains('dark-mode')) {
       localStorage.setItem('theme', 'dark');
-      themeButton.textContent = 'Modo Claro';
+      themeButton.textContent = 'Claro';
   } else {
       localStorage.setItem('theme', 'light');
-      themeButton.textContent = 'Modo Oscuro';
+      themeButton.textContent = 'Oscuro';
   }
 }
 
@@ -260,10 +260,10 @@ function loadTheme() {
   if (themeButton) {
     if (theme === 'dark') {
       body.classList.add('dark-mode');
-      themeButton.textContent = 'Modo Claro';
+      themeButton.textContent = 'Claro';
     } else {
       body.classList.add('light-mode');
-      themeButton.textContent = 'Modo Oscuro';
+      themeButton.textContent = 'Oscuro';
     }
   }
 }
